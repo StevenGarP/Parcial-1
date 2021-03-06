@@ -1,0 +1,15 @@
+C:\Users\HP\source\repos\prueba\prueba\prueba\bin\Debug\netstandard2.0\prueba.deps.json
+C:\Users\HP\source\repos\prueba\prueba\prueba\bin\Debug\netstandard2.0\prueba.dll
+C:\Users\HP\source\repos\prueba\prueba\prueba\bin\Debug\netstandard2.0\ref\prueba.dll
+C:\Users\HP\source\repos\prueba\prueba\prueba\bin\Debug\netstandard2.0\prueba.pdb
+C:\Users\HP\source\repos\prueba\prueba\prueba\obj\Debug\netstandard2.0\AdiviCumple.xaml.g.cs
+C:\Users\HP\source\repos\prueba\prueba\prueba\obj\Debug\netstandard2.0\AdiviNum.xaml.g.cs
+C:\Users\HP\source\repos\prueba\prueba\prueba\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\HP\source\repos\prueba\prueba\prueba\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\HP\source\repos\prueba\prueba\prueba\obj\Debug\netstandard2.0\prueba.AssemblyInfoInputs.cache
+C:\Users\HP\source\repos\prueba\prueba\prueba\obj\Debug\netstandard2.0\prueba.AssemblyInfo.cs
+C:\Users\HP\source\repos\prueba\prueba\prueba\obj\Debug\netstandard2.0\prueba.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\prueba\prueba\prueba\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\HP\source\repos\prueba\prueba\prueba\obj\Debug\netstandard2.0\prueba.dll
+C:\Users\HP\source\repos\prueba\prueba\prueba\obj\Debug\netstandard2.0\ref\prueba.dll
+C:\Users\HP\source\repos\prueba\prueba\prueba\obj\Debug\netstandard2.0\prueba.pdb

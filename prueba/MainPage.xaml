@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="prueba.MainPage">
+
+    <Grid>
+        <Image Source="adivini.jpg" Aspect="AspectFill"/>
+        <BoxView Color ="Gray" Opacity="0.95"/>
+
+        <StackLayout Margin="20">
+
+            <Image Source = "logo.jpg" WidthRequest="100" HeightRequest="100" Opacity="0.6" />
+
+            <Label Text="--¡ EL TIO !--" 
+                   FontFamily = "Lobster"
+                   HorizontalOptions="Center" 
+                   FontSize="25"
+                   TextColor="Black" Font ="Bold, 50"/>
+            <Label Text="-¡ ADIVINO !-"
+                   FontFamily = "Lobster"
+                   HorizontalOptions="Center" 
+                   FontSize="20"
+                   TextColor="Black" Font ="Bold, 45"/>
+
+        </StackLayout>
+
+        <StackLayout Margin="0,320,0,30">
+
+            <Label x:Name="Labelprueba"
+                Text="          ¿ QUE QUIERES QUE ADIVINE PARA TI ?"
+                   HorizontalOptions="Center" 
+                   TextColor="DarkBlue" Font ="Bold, 30"/>
+
+            <Button x:Name="buttonNumero"
+                    Text="Adivino el Numero que piensas" 
+                    Margin="90,40,90,0"
+                    TextColor="Gray"    
+                    BackgroundColor="GreenYellow"
+                    BorderColor="Black"
+                    BorderWidth="3"
+                    CornerRadius="8"
+                    WidthRequest="150"
+                    HeightRequest="98"
+                    Font ="Bold, 18"
+                    Clicked="buttonNumero_Clicked"/>
+
+            <Button x:Name="buttonCumpleaños"
+                    Text="Adivino tu fecha de cumpleaños"
+                    Margin="90,18,90,0"
+                    TextColor="Gray"    
+                    BackgroundColor="GreenYellow"
+                    BorderColor="Black"
+                    BorderWidth="3"
+                    CornerRadius="8"
+                    WidthRequest="200"
+                    HeightRequest="90"
+                    Font ="Bold, 18"
+                    Clicked="buttonCumpleaños_Clicked"/>
+
+
+
+
+        </StackLayout>
+
+        </Grid>
+
+</ContentPage>

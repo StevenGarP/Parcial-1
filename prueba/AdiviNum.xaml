@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="prueba.AdiviNum">
+    <ContentPage.Content>
+
+        <Grid>
+
+            <Image Source="adivini.jpg" Aspect="AspectFill"/>
+            <BoxView Color ="Gray" Opacity="0.95"/>
+
+            <Grid>
+               
+                <Image Source = "logo.jpg" WidthRequest="60" HeightRequest="60" Opacity="0.6" Margin="0,-680,345,0"/>
+                <Label Text="-¡ INSTRUCCIONES !-" Margin="70,10,0,0"
+                       TextColor="Black" Font ="Bold, 32"/>
+            </Grid>
+            <StackLayout Margin="12,75">
+                
+                <Label Text="PASO 1:" TextColor="Gold" Font ="Bold,25"/>
+                <Label Text="Piense y anote en su Calculadora un numero entero" TextColor="GreenYellow" Font ="Bold, 15"/>
+ 
+                <Label Text="PASO 2:" TextColor="Gold" Font ="Bold,25"/>
+                <Label Text="El numero Que penso lo Multiplica por 2" TextColor="GreenYellow" Font ="Bold, 15"/>
+
+                <Label Text="PASO 3:" TextColor="Gold" Font ="Bold,25"/>
+                <Label Text="Al resultado de la Multiplicación Sumele 8" TextColor="GreenYellow" Font ="Bold, 15"/>
+
+                <Label Text="PASO 4:" TextColor="Gold" Font ="Bold,25"/>
+                <Label Text="Al resultado de la Suma Multipliquelo por 5" TextColor="GreenYellow" Font ="Bold, 15"/>
+
+                <Label Text="PASO 5:" TextColor="Gold" Font ="Bold,25"/>
+                <Label Text="El resultado Ingreselo en el Espacio en Blanco Abajo" TextColor="GreenYellow" 
+                       Font ="Bold, 15"/>
+
+                
+
+            </StackLayout>
+
+            <StackLayout>
+                <Entry x:Name="Resultado" Placeholder="Ingrese su Resultado"
+                 Margin="5,435"/>
+                       
+                <Button 
+                    Text="Adivinar el Numero UwU" Clicked="AdivinarNumero_Clicked"
+                    Margin="0,-430"/>
+                
+                <Label Text="El Resultado es"
+                       TextColor="PaleGreen" Font ="Bold, 30"
+                       HorizontalOptions="Center"
+                       Margin="0,420"/>
+                
+                <Label x:Name="Adivinado"
+                       Text=""
+                       TextColor="PaleGreen" Font ="Bold, 40"
+                       HorizontalOptions="Center"
+                       Margin="0,-430"/>
+            </StackLayout>
+            
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
